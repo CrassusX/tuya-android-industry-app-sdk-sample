@@ -1,5 +1,41 @@
 # Tuya Android IoT App SDK 发布记录
 
+## v1.0.2
+
+### 发布日期
+
+2021年07月17日
+
+### 新增变更
+
+- 缺陷修复
+  - 修复token刷新不同步的问题
+  - 其它问题优化
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+
+## v1.0.1
+
+### 发布日期
+
+2021年06月10日
+
+### 新增变更
+
+- 接口变更
+  - 获取配网指令牌，入参去掉了uid
+  - 获取设备规格，修改了返回的数据结构体
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+
 ## v1.0.0
 
 ### 发布日期
@@ -18,6 +54,7 @@
 <div>
         &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
 </div>
+
 
 ## v0.9.0
 
