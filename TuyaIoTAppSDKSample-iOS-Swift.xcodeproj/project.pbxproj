@@ -841,14 +841,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64ZYG66RMG;
+				DEVELOPMENT_TEAM = SBZ8BNXTG6;
 				INFOPLIST_FILE = "TuyaIoTAppSDKSample-iOS-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "im.wut.TuyaIoTAppSDK-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwy.pannel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TuyaIoTAppSDKSample-iOS-Swift/TuyaIoTAppSDKSample-iOS-Swift_Bridging_Header.h";
 				SWIFT_VERSION = 5.0;
@@ -864,14 +864,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64ZYG66RMG;
+				DEVELOPMENT_TEAM = SBZ8BNXTG6;
 				INFOPLIST_FILE = "TuyaIoTAppSDKSample-iOS-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "im.wut.TuyaIoTAppSDK-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwy.pannel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TuyaIoTAppSDKSample-iOS-Swift/TuyaIoTAppSDKSample-iOS-Swift_Bridging_Header.h";
 				SWIFT_VERSION = 5.0;
@@ -885,6 +885,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SBZ8BNXTG6;
 				INFOPLIST_FILE = "TuyaIoTAppSDKSample-iOS-SwiftTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -906,6 +907,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SBZ8BNXTG6;
 				INFOPLIST_FILE = "TuyaIoTAppSDKSample-iOS-SwiftTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -926,6 +928,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SBZ8BNXTG6;
 				INFOPLIST_FILE = "TuyaIoTAppSDKSample-iOS-SwiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -945,6 +948,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SBZ8BNXTG6;
 				INFOPLIST_FILE = "TuyaIoTAppSDKSample-iOS-SwiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

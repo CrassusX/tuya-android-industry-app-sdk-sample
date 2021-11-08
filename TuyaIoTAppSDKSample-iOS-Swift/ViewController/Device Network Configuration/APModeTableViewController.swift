@@ -78,19 +78,10 @@ class APModeTableViewController: UITableViewController {
             number += 1
             if number < 100 {
                 TYDeviceRegistrationManager().queryRegistrationResult(of: self.token) { (result, error) in
-//                    if result != nil {
-                        if result?.succeedDevices.count != 0 {
-                            SVProgressHUD.showInfo(withStatus: "Pairing Succeed")
-                            self.navigationController?.popToRootViewController(animated: true)
-                        }
-                        
-//                        if result?.failedDevices.count != 0 {
-//                            SVProgressHUD.showInfo(withStatus: "Pairing Failed")
-//                        }
-                       
-//                    } else {
-//                        SVProgressHUD.show(withStatus: "Pairing Failed")
-//                    }
+                    if result != nil && result?.succeedDevices != nil && (result?.succeedDevices.count)! > 0 {
+                        SVProgressHUD.showInfo(withStatus: "Pairing Succeed")
+                        self.navigationController?.popToRootViewController(animated: true)
+                    }
                 }
             } else {
                 self.timer.cancel()
@@ -99,7 +90,6 @@ class APModeTableViewController: UITableViewController {
         }
         timer.activate()
     }
-    
 }
 
 

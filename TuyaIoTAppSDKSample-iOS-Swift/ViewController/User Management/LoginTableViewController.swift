@@ -18,7 +18,8 @@ class LoginTableViewController: UITableViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        accountTextField.text = "17768517448"
+        passwordTextField.text = "20190704a"
         locationLabel.text = location
     }
     
@@ -33,7 +34,7 @@ class LoginTableViewController: UITableViewController {
         
         let location = UserModel.location()
         TYSDK.initialize(clientID: AppKey.clientID, clientSecret: AppKey.clientSecret, hostRegion: location)
-
+        TYSDK.isDebugMode = true
         SVProgressHUD.show()
         TYUserManager().login(userName: account, password: password) { (isSuccess, error) in
             if isSuccess {

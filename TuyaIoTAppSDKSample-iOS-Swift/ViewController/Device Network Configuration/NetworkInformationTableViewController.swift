@@ -19,6 +19,8 @@ class NetworkInformationTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        ssidTextField.text = "ZWY"
+        passwordTextField.text = "20190704"
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
