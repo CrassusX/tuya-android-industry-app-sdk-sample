@@ -36,11 +36,21 @@ android {
 
     signingConfigs {
         release {
-            //todo:You need to generate your own signature
+            storeFile file('izpan.jks')
+            keyAlias 'izpan'
+            keyPassword '123456'
+            storePassword '123456'
+            v1SigningEnabled true
+            v2SigningEnabled true
         }
 
         debug {
-            //todo:You need to generate your own signature
+            storeFile file('/Users/crassus/Documents/developer/Cert/izpan.jks')
+            keyAlias 'izpan'
+            keyPassword '123456'
+            storePassword '123456'
+            v1SigningEnabled true
+            v2SigningEnabled true
         }
     }
 }

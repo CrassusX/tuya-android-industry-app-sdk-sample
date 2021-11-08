@@ -19,6 +19,8 @@ import androidx.appcompat.widget.Toolbar;
 import com.tuya.iotapp.common.kv.KvManager;
 import com.tuya.iotapp.common.utils.L;
 import com.tuya.iotapp.jsonparser.api.JsonParser;
+import com.tuya.iotapp.network.api.RegionHostConst;
+import com.tuya.iotapp.network.api.TYNetworkManager;
 import com.tuya.iotapp.network.interceptor.token.AccessTokenManager;
 import com.tuya.iotapp.network.interceptor.token.bean.TokenBean;
 import com.tuya.iotapp.network.response.BizResponse;
@@ -95,6 +97,8 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 userName = mEtUserName.getText().toString();
                 password = mEtPassword.getText().toString();
+
+                TYNetworkManager.setRegionHost(RegionHostConst.REGION_HOST_CN);
 
                 if (TextUtils.isEmpty(userName)) {
                     Toast.makeText(v.getContext(), "userName can not null", Toast.LENGTH_SHORT).show();
