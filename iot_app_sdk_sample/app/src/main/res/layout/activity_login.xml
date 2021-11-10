@@ -36,7 +36,6 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="@string/user_account_tips"
-            android:text="18017719758"
             android:layout_marginTop="10dp" />
 
         <EditText
@@ -45,7 +44,6 @@
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:inputType="textPassword"
-            android:text="20190704a"
             android:hint="@string/user_password" />
 
         <Button
